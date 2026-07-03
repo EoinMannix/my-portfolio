@@ -1,10 +1,13 @@
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+
 function App() {
   return (
     <main>
-      <h1>My Portfolio</h1>
+      <Navbar />
+      <Hero  />
     </main>
   )
-
 }
 
 export default App
